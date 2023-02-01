@@ -1,1 +1,65 @@
-    
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="with=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="kakerike.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Kakerike</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="kakerike.html"><img src="placeholder.png" alt="" /></a>
+        <div class="tittel">
+          <h1 style="font-size: 4vw">kakerike</h1>
+          <p style="font-size: 1.5vw">sweet dreams</p>
+        </div>
+        <div class="nav-link" id="navlink">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">CART</a></li>
+            <li><a href="">MENU</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="box2">
+        <section class="text-box">
+          <h1>Kakerike i Hønefoss</h1>
+          <p>
+            Velkommen til kakerike. På vår nettbutikk finner du et bredt utvalg
+            av deilige kaker, bakt ferske hver dag. Enten du leter etter en
+            spesiell anledningskake eller en søt belønning til deg selv, har vi
+            noe for alle. Bla gjennom utvalget vårt, plasser bestillingen din,
+            og få den levert rett på døren. Takk for at du velger kakerike!
+          </p>
+          <a href="" class="hero-btn">VIS MENU</a>
+        </section>
+      </div>
+    </section>
+
+    <!---------javascript for toggle menu-------->
+    <script>
+      var navlink = document.getElementById("navlink");
+      function showmenu() {
+        navlink.style.right = "0";
+      }
+      function hidemenu() {
+        navlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
