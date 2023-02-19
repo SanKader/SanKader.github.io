@@ -237,6 +237,10 @@ section.text-box{
     margin-top: 4%;
 }
 
+.VBLH h3{
+    font-size: 2vw;
+}
+
 h3{
     text-align: center;
     font-weight: 600;
@@ -255,6 +259,9 @@ h3{
        margin-right: 15%;
        margin-left: 15%;
        text-align: center;
+    }
+    .VBLH h3{
+        font-size: 140%;
     }
 }
 
@@ -303,6 +310,10 @@ h5{
     }
     .Favoritter h4{
         font-size: 200%;
+    }
+    .cake-1{
+        margin-right: 15%;
+        margin-left: 15%;
     }
 }
 
