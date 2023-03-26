@@ -223,7 +223,7 @@ section.text-box{
 
 .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 12%;
 }
 
@@ -234,7 +234,7 @@ section.text-box{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-    margin-right: 2%;
+    margin-right: 1%;
     margin-left: 2%;
     margin-bottom: 5%;
     margin-top: 4%;
@@ -248,10 +248,6 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-}
-
-.VBLH:hover{
-    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
 }
 
 @media(max-width: 700px){
@@ -281,26 +277,30 @@ h4{
 }
 
 .cake-1{
-    flex-basis: 20%;
+    flex-basis: 30%;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-    margin-right: 2%;
-    margin-left: 2%;
     margin-bottom: 5%;
 }
 
 h5{
     color: orange;
-    font-size: 200%;
+    font-size: 150%;
+}
+
+.cake-1 p{
+    font-size: 80%;
 }
 
 .row-kjøp{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .placeholder{
@@ -491,6 +491,11 @@ footer .content .link-boxes .box{
 .content .link-boxes .input-box{
     margin-right: 55px;
 }
+
+.sub{
+    width: 110%;
+}
+
 .link-boxes .input-box input{
     height: 40px;
     width: calc(100% + 55px);
@@ -607,7 +612,7 @@ footer .bottom-details .bottom_text{
     background-color: #151515;
     flex-direction: row;
     display: flex;
-    justify-content: space-between  ;
+    justify-content: space-around;
     color: rgb(183, 125, 25);
     list-style: none;
 }
@@ -617,6 +622,10 @@ footer .bottom-details .bottom_text{
     list-style: none;
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.logo-details{
+    margin-left: 4.5%;
 }
 
 @media(max-width: 700px){
