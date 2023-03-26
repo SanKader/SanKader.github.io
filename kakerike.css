@@ -320,9 +320,7 @@ h5{
     }
 }
 
-.cake-1:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.498);
-}
+
 
 .kjøp-btn{
     display: inline-block;
@@ -338,6 +336,8 @@ h5{
     margin-bottom: 1%;
     margin-top: 5%;
 }
+
+
 
 .kjøp-btn:hover{
     border:1px solid #db8a19;
