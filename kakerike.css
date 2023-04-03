@@ -633,3 +633,94 @@ footer .bottom-details .bottom_text{
         font-size: 12px;
     }
 }
+
+/* PERSONVERN */
+
+.Pheader .ptext-box2 a{
+    text-decoration: none;
+}
+
+.Pheader{
+    background-color: #d6a36c;
+    text-decoration: none;
+}
+
+.ptext-box2{
+    min-height: 80vh;
+    width: 100%;
+    background-color: #d6a36c;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.ptext-box2{
+    text-align: center;
+    margin: auto;
+    width: 940px;
+    border-radius: 9px;
+}
+
+.Pheader .ptext-box2 p{
+    text-align: left;
+    padding: 0 0 16px 0;
+}
+
+.Pheader .ptext-box2 h3{
+    text-align: left;
+}
+
+.Pheader .ptext-box2 h4{
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.Pheader .ptext-box2 h1{
+    padding-bottom: 50px;
+}
+
+.cookie{
+    font-size: 40px;
+}
+
+.personvernerklæring{
+    font-weight: bolder;
+}
+
+.ptext-box2 h1{
+    font-size: 60px;
+}
+
+.LOL{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 700px){
+    .Pheader{
+        font-size: 14px;
+    }
+    .ptext-box2{
+        width: 384px;
+        margin: auto;
+    }
+    .ptext-box2 h1{
+        font-size: 32px;
+    }
+    .cookie{
+        font-size: 24px;
+    }
+    .Pheader .ptext-box2 h4{
+        font-size: 20px;
+    }
+    .LOL{
+        width: 70px;
+        margin-bottom: 2px;
+    }
+
+}
