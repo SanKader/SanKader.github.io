@@ -774,7 +774,7 @@ footer .bottom-details .bottom_text{
     .rad {
       flex-direction: column;
     }
-    .bilde {
+    .bilde {  
       width: 200px;  
       margin-right: 0;
       margin-bottom: 10px;
@@ -786,7 +786,8 @@ footer .bottom-details .bottom_text{
         margin-bottom: 10px;
     }
     .tekstboks{
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 1.5;
     }
     .sentrert-tekst-wrapper{
         padding-bottom: 50px;
@@ -797,6 +798,10 @@ footer .bottom-details .bottom_text{
     .rad:nth-child(2) {
         flex-direction: column-reverse;
       }
+    .sentrert-innhold{
+        padding-bottom: 100px;
+        padding-top: 40px;
+    }
     
   }
 
