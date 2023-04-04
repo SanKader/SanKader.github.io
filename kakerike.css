@@ -780,7 +780,7 @@ footer .bottom-details .bottom_text{
       margin-bottom: 10px;
     }
     .bilde2{
-        width: 180px;
+        width: 200px;
         margin-left: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -794,6 +794,7 @@ footer .bottom-details .bottom_text{
     }
     .sentrert-tekst p{
         text-align: left;
+        font-size: 15px;
     }
     .rad:nth-child(2) {
         flex-direction: column-reverse;
