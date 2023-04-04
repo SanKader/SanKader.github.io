@@ -707,7 +707,7 @@ footer .bottom-details .bottom_text{
         font-size: 14px;
     }
     .ptext-box2{
-        width: 384px;
+        width: 350px;
         margin: auto;
     }
     .ptext-box2 h1{
@@ -725,3 +725,106 @@ footer .bottom-details .bottom_text{
         margin-right: 0px;
     }
 }
+
+.sentrert-innhold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #d6a36c;
+  }
+  .beholder {
+    display: flex;
+    flex-direction: column;
+  }
+  .rad {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .bilde {
+    margin-right: 20px;
+  }
+  .tekstboks {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #d6a36c;
+    line-height: 1.5;
+  }
+  .tekstboks h1{
+    color: #d6a36c;
+  }
+  .bilde{
+    width: 300px;
+    border-radius: 20px;
+  }
+  .bilde2{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .sentrert-tekst p{
+    text-align: left;
+}
+
+  @media (max-width: 700px) {
+    .rad {
+      flex-direction: column;
+    }
+    .bilde {
+      width: 200px;  
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .bilde2{
+        width: 180px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .tekstboks{
+        font-size: 10px;
+    }
+    .sentrert-tekst-wrapper{
+        padding-bottom: 50px;
+    }
+    .sentrert-tekst p{
+        text-align: left;
+    }
+    .rad:nth-child(2) {
+        flex-direction: column-reverse;
+      }
+    
+  }
+
+  .sentrert-tekst-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6a36c;
+    border-color: #d6a36c;
+  } 
+
+  .sentrert-tekst {
+    background-color: #d6a36c;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+    border-color: #d6a36c;
+    margin-top: 30px;
+  }
+
+  .sentrert-tekst p{
+    background-color: #d6a36c;
+    border-color: #d6a36c;
+    color: white;
+  }
+
+  .sentrert-tekst h1{
+    color: white;
+  }
