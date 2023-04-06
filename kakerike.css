@@ -110,6 +110,7 @@ nav img{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    font-size: 40px;
 }
 
 .box2 .text-box p{
@@ -122,12 +123,12 @@ nav img{
 }
 
 .text-box h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .text-box p{
     margin: 20px 0 40px;
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
     line-height: 22px;
     text-align: center;
@@ -148,7 +149,7 @@ nav img{
 }
 
 .hero-btn:hover{
-    border:1px solid #b13026;
+    border:2px solid #b13026;
     background: #b13026;
     transition: 0.5s;
 }
@@ -192,6 +193,12 @@ nav .fa{
     }
     .hero-btn{
         margin-bottom: 7%;
+    }
+    .text-box p{
+        font-size: 15px;
+    }
+    .text-box h1{
+        font-size: 25px;
     }
 }
 
@@ -290,6 +297,7 @@ h4{
 h5{
     color: orange;
     font-size: 150%;
+    cursor:default;
 }
 
 .cake-1 p{
@@ -868,6 +876,7 @@ footer .bottom-details .bottom_text{
     margin-bottom: 1%;
     margin-top: 5%;
     background-color: #d6a36cac;
+    font-size: 13px;
 }
 
 
@@ -893,6 +902,7 @@ footer .bottom-details .bottom_text{
     margin-bottom: 1%;
     margin-top: 5%;
     background-color: #ffffff;
+    font-size: 13px;
 }
 
 
@@ -940,10 +950,10 @@ footer .bottom-details .bottom_text{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between; /* Endret til space-between */
+    justify-content: space-between;
     flex: 1;
     padding: 10px;
-    height: 100%; /* Lagt til for å utvide boksen til full høyde */
+    height: 100%;
   }
   
   .biografi, .pris, .legg-til-handlekurv {
@@ -968,7 +978,7 @@ footer .bottom-details .bottom_text{
   .legg-til-handlekurv:hover {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
   }
 
   .biografi{
@@ -988,3 +998,10 @@ footer .bottom-details .bottom_text{
     }
 
   }
+
+  .pris{
+    font-size: 17px;
+    cursor:default;
+  }
+
+
