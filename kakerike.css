@@ -1007,3 +1007,101 @@ footer .bottom-details .bottom_text{
   }
 
 
+.handlekurv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .handlekurv-liste {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .handlekurv-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .slett-btn {
+    background-color: #d6a36c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.betal-btn {
+    display: block;
+    background-color: #d6a36c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+
+  .handlekurv-og-skjema {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Handletittel{
+    margin-right: 470px;
+    font-size: 50px; 
+    margin-bottom: 30px;
+  }
+
+  form input {
+    margin: 5px 0;
+    border-radius: 5px;
+    height: 40px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 700px) {
+    .handlekurv-og-skjema {
+      flex-direction: column;
+    }
+    .Handletittel{
+        margin-right: 0px;
+    }
+    .handlekurv-container {
+        flex-direction: column;
+    }
+    .handlekurv-liste {
+        width: 100%;
+    }
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+      }
+    form input{
+        border-radius: 5px;
+        height: 50px;
+    }
+    .betal-btn{
+        margin-bottom: 100px;
+    }
+  }

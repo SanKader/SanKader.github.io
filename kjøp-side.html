@@ -30,7 +30,7 @@
         <div class="nav-link" id="navlink">
           <i class="fa fa-times" onclick="hidemenu()"></i>
           <ul>
-            <li><a href="">KURV</a></li>
+            <li><a href="handlekurv.html">KURV</a></li>
             <li><a href="meny.html">MENY</a></li>
           </ul>
         </div>
@@ -69,7 +69,7 @@
           </div>
           <div style="background-color: #d6a36c;"class="cake-1">
             <img class="placeholder" src="placeholder.jpg" />
-            <h5  style="color: #ffffff;">Caramel Cake</h5>
+            <h5  style="color: #ffffff;">Chocolate cake</h5>
             <p>
               <strong><em><span style="color: white;"class="pris">NOK 100</span></em></strong>
             </p>
@@ -171,6 +171,14 @@
         function hidemenu() {
           navlink.style.right = "-200px";
         }
+      </script>
+      <script>
+        document.querySelector('.legg-til-handlekurv').addEventListener('click', function() {
+          var produkt = 'Caramel Cake';
+          var handlekurvData = JSON.parse(localStorage.getItem('handlekurv')) || [];
+          handlekurvData.push(produkt);
+          localStorage.setItem('handlekurv', JSON.stringify(handlekurvData));
+        });
       </script>
     </body>
 </html>
