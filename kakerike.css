@@ -326,7 +326,7 @@ h5{
         flex-direction: column;
     }
     .Favoritter h4{
-        font-size: 200%;
+        font-size: 300%;
     }
     .cake-1{
         margin-right: 15%;
@@ -342,7 +342,7 @@ h5{
     color: orange;
     border: 2px solid orange;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 16px;
     background:transparent;
     position: relative;
     cursor: pointer;
@@ -868,7 +868,7 @@ footer .bottom-details .bottom_text{
     color: #ffffff;
     border: 2px solid #d6a36c;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 16px;
     background:transparent;
     position: relative;
     cursor: pointer;
@@ -876,7 +876,6 @@ footer .bottom-details .bottom_text{
     margin-bottom: 1%;
     margin-top: 5%;
     background-color: #d6a36cac;
-    font-size: 13px;
 }
 
 
@@ -886,6 +885,7 @@ footer .bottom-details .bottom_text{
     background: #d6a36c;
     transition: 0.5s;
     color:  #ffffff;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.144),0 17px 50px 0 rgba(0, 0, 0, 0.121);
 }
 
 .Konf-btn{
@@ -894,7 +894,7 @@ footer .bottom-details .bottom_text{
     color: #d6a36c;;
     border: 2px solid #d6a36c;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 16px;
     background:transparent;
     position: relative;
     cursor: pointer;
@@ -902,7 +902,6 @@ footer .bottom-details .bottom_text{
     margin-bottom: 1%;
     margin-top: 5%;
     background-color: #ffffff;
-    font-size: 13px;
 }
 
 
@@ -912,6 +911,7 @@ footer .bottom-details .bottom_text{
     background: #ffffff;
     transition: 0.5s;
     color:  #d6a36c;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.114),0 17px 50px 0 rgba(0, 0, 0, 0.155);
 }
 
 .container {
@@ -961,7 +961,7 @@ footer .bottom-details .bottom_text{
   }
   
   .legg-til-handlekurv {
-    background-color: #ffffff;
+    background-color: #ffffff6c;
     color: rgb(0, 0, 0);
     padding: 8px 16px;
     border: none;
@@ -969,16 +969,16 @@ footer .bottom-details .bottom_text{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 27px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     border-radius: 4px;
+    border: 2px solid #fff;
   }
   
   .legg-til-handlekurv:hover {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-    border: 0px solid #000000;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
   }
 
   .biografi{
